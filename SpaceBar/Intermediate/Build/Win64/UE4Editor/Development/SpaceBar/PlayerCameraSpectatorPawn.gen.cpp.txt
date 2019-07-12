@@ -1,0 +1,9 @@
+C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\UE4Editor\Development\SpaceBar\Definitions.SpaceBar.h
+D:\Unreal Games Library\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Unreal Games Library\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Source\SpaceBar/PlayerCameraSpectatorPawn.h
+D:\Unreal Games Library\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+D:\Unreal Games Library\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\Unreal Games Library\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+D:\Unreal Games Library\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+c:\users\hayde\documents\unreal projects\spacebar\spacebar\intermediate\build\win64\ue4editor\inc\spacebar\PlayerCameraSpectatorPawn.generated.h

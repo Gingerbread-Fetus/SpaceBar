@@ -1,0 +1,3 @@
+C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Source\SpaceBar\SpaceBar.Build.cs
+C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Source\SpaceBar.Target.cs
+C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Source\SpaceBarEditor.Target.cs

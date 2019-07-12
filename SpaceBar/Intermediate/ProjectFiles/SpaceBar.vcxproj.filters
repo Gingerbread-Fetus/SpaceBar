@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SpaceBar.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{57051FCA-7529-495F-AB35-2867FF3C51E2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpaceBar.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SpaceBarEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9BFD8069-55C2-43C2-B04E-9B92F6BEEA2F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SpaceBar">
+      <UniqueIdentifier>{6F799770-1295-410E-819F-754CFD86FA5B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpaceBar\SpaceBar.Build.cs">
+      <Filter>Source\SpaceBar</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SpaceBar\SpaceBar.cpp">
+      <Filter>Source\SpaceBar</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceBar\SpaceBar.h">
+      <Filter>Source\SpaceBar</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceBar\StationPlayerController.cpp">
+      <Filter>Source\SpaceBar</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceBar\StationPlayerController.h">
+      <Filter>Source\SpaceBar</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SpaceBar\PlayerCameraSpectatorPawn.h">
+      <Filter>Source\SpaceBar</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SpaceBar\PlayerCameraSpectatorPawn.cpp">
+      <Filter>Source\SpaceBar</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

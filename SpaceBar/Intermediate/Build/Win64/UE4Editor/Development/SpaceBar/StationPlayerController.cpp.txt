@@ -1,0 +1,3 @@
+C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\UE4Editor\Development\SpaceBar\Definitions.SpaceBar.h
+c:\users\hayde\documents\unreal projects\spacebar\spacebar\source\spacebar\StationPlayerController.h
+C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\UE4Editor\Inc\SpaceBar\StationPlayerController.generated.h
