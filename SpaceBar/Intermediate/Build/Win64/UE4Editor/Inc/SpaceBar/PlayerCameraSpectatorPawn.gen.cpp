@@ -41,9 +41,9 @@ void EmptyLinkFunctionForGeneratedCodePlayerCameraSpectatorPawn() {}
 		static void NewProp_bCanMoveCamera_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bCanMoveCamera;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraScrollBoundary_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraScrollMargin_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CameraScrollBoundary;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CameraScrollMargin;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraMovementSpeed_MetaData[];
 #endif
@@ -112,13 +112,13 @@ void EmptyLinkFunctionForGeneratedCodePlayerCameraSpectatorPawn() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_bCanMoveCamera = { "bCanMoveCamera", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APlayerCameraSpectatorPawn), &Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_bCanMoveCamera_SetBit, METADATA_PARAMS(Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_bCanMoveCamera_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_bCanMoveCamera_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraScrollBoundary_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraScrollMargin_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "ModuleRelativePath", "PlayerCameraSpectatorPawn.h" },
 		{ "ToolTip", "Camera Scroll Boundary" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraScrollBoundary = { "CameraScrollBoundary", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCameraSpectatorPawn, CameraScrollBoundary), METADATA_PARAMS(Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraScrollBoundary_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraScrollBoundary_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraScrollMargin = { "CameraScrollMargin", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCameraSpectatorPawn, CameraScrollMargin), METADATA_PARAMS(Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraScrollMargin_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraScrollMargin_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraMovementSpeed_MetaData[] = {
 		{ "Category", "Camera" },
@@ -197,7 +197,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCameraSpectatorPawn() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraComponent = { "CameraComponent", nullptr, (EPropertyFlags)0x0010000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerCameraSpectatorPawn, CameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_bCanMoveCamera,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraScrollBoundary,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraScrollMargin,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraMovementSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraZoomSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCameraSpectatorPawn_Statics::NewProp_CameraRadiusMin,
@@ -236,7 +236,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCameraSpectatorPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCameraSpectatorPawn, 2796876928);
+	IMPLEMENT_CLASS(APlayerCameraSpectatorPawn, 1085765216);
 	template<> SPACEBAR_API UClass* StaticClass<APlayerCameraSpectatorPawn>()
 	{
 		return APlayerCameraSpectatorPawn::StaticClass();

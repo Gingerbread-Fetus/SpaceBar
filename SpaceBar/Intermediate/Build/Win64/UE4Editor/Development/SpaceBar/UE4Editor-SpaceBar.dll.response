@@ -33,9 +33,11 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\SpaceBarEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\UE4Editor\Development\SpaceBar\PlayerCameraController.cpp.obj"
 "C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\UE4Editor\Development\SpaceBar\PlayerCameraSpectatorPawn.cpp.obj"
 "C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\UE4Editor\Development\SpaceBar\SpaceBar.cpp.obj"
 "C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\UE4Editor\Development\SpaceBar\StationPlayerController.cpp.obj"
+"C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\UE4Editor\Development\SpaceBar\PlayerCameraController.gen.cpp.obj"
 "C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\UE4Editor\Development\SpaceBar\PlayerCameraSpectatorPawn.gen.cpp.obj"
 "C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\UE4Editor\Development\SpaceBar\SpaceBar.init.gen.cpp.obj"
 "C:\Users\hayde\Documents\Unreal Projects\SpaceBar\SpaceBar\Intermediate\Build\Win64\UE4Editor\Development\SpaceBar\StationPlayerController.gen.cpp.obj"

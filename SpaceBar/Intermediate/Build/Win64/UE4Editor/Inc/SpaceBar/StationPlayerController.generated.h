@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SPACEBAR_StationPlayerController_generated_h
 
-#define SpaceBar_Source_SpaceBar_StationPlayerController_h_15_RPC_WRAPPERS
-#define SpaceBar_Source_SpaceBar_StationPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define SpaceBar_Source_SpaceBar_StationPlayerController_h_15_INCLASS_NO_PURE_DECLS \
+#define SpaceBar_Source_SpaceBar_StationPlayerController_h_17_RPC_WRAPPERS
+#define SpaceBar_Source_SpaceBar_StationPlayerController_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define SpaceBar_Source_SpaceBar_StationPlayerController_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAStationPlayerController(); \
 	friend struct Z_Construct_UClass_AStationPlayerController_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AStationPlayerController)
 
 
-#define SpaceBar_Source_SpaceBar_StationPlayerController_h_15_INCLASS \
+#define SpaceBar_Source_SpaceBar_StationPlayerController_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAStationPlayerController(); \
 	friend struct Z_Construct_UClass_AStationPlayerController_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AStationPlayerController)
 
 
-#define SpaceBar_Source_SpaceBar_StationPlayerController_h_15_STANDARD_CONSTRUCTORS \
+#define SpaceBar_Source_SpaceBar_StationPlayerController_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AStationPlayerController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStationPlayerController) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define SpaceBar_Source_SpaceBar_StationPlayerController_h_15_ENHANCED_CONSTRUCTORS \
+#define SpaceBar_Source_SpaceBar_StationPlayerController_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AStationPlayerController(AStationPlayerController&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStationPlayerController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AStationPlayerController)
 
 
-#define SpaceBar_Source_SpaceBar_StationPlayerController_h_15_PRIVATE_PROPERTY_OFFSET
-#define SpaceBar_Source_SpaceBar_StationPlayerController_h_12_PROLOG
-#define SpaceBar_Source_SpaceBar_StationPlayerController_h_15_GENERATED_BODY_LEGACY \
+#define SpaceBar_Source_SpaceBar_StationPlayerController_h_17_PRIVATE_PROPERTY_OFFSET
+#define SpaceBar_Source_SpaceBar_StationPlayerController_h_14_PROLOG
+#define SpaceBar_Source_SpaceBar_StationPlayerController_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SpaceBar_Source_SpaceBar_StationPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
-	SpaceBar_Source_SpaceBar_StationPlayerController_h_15_RPC_WRAPPERS \
-	SpaceBar_Source_SpaceBar_StationPlayerController_h_15_INCLASS \
-	SpaceBar_Source_SpaceBar_StationPlayerController_h_15_STANDARD_CONSTRUCTORS \
+	SpaceBar_Source_SpaceBar_StationPlayerController_h_17_PRIVATE_PROPERTY_OFFSET \
+	SpaceBar_Source_SpaceBar_StationPlayerController_h_17_RPC_WRAPPERS \
+	SpaceBar_Source_SpaceBar_StationPlayerController_h_17_INCLASS \
+	SpaceBar_Source_SpaceBar_StationPlayerController_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SpaceBar_Source_SpaceBar_StationPlayerController_h_15_GENERATED_BODY \
+#define SpaceBar_Source_SpaceBar_StationPlayerController_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SpaceBar_Source_SpaceBar_StationPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
-	SpaceBar_Source_SpaceBar_StationPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	SpaceBar_Source_SpaceBar_StationPlayerController_h_15_INCLASS_NO_PURE_DECLS \
-	SpaceBar_Source_SpaceBar_StationPlayerController_h_15_ENHANCED_CONSTRUCTORS \
+	SpaceBar_Source_SpaceBar_StationPlayerController_h_17_PRIVATE_PROPERTY_OFFSET \
+	SpaceBar_Source_SpaceBar_StationPlayerController_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	SpaceBar_Source_SpaceBar_StationPlayerController_h_17_INCLASS_NO_PURE_DECLS \
+	SpaceBar_Source_SpaceBar_StationPlayerController_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

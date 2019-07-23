@@ -6,6 +6,8 @@
 #include "GameFramework/PlayerController.h"
 #include "StationPlayerController.generated.h"
 
+
+class APlayerCameraSpectatorPawn;
 /**
  * 
  */
@@ -15,4 +17,19 @@ class SPACEBAR_API AStationPlayerController : public APlayerController
 	GENERATED_BODY()
 
 	AStationPlayerController();
+
+public:
+	virtual void BeginPlay() override;
+
+private:
+
+	virtual void SetupInputComponent() override;
+	virtual void Tick(float DeltaSeconds) override;
+
+	void MoveX(float InputAxis);
+	void SetPawn(APawn* InPawn);
+	void MoveY(float InputAxis);
+
+	float XAxis = 0;
+	float YAxis = 0;
 };

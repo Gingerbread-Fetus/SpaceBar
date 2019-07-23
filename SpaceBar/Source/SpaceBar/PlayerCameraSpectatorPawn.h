@@ -59,15 +59,11 @@ public:
 
 	/** Camera Scroll Boundary */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Camera)
-	float CameraScrollBoundary;
+	float CameraScrollMargin;
 
 	/** Should the camera move? */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Camera)
 	bool bCanMoveCamera;
-
-	FVector GetCameraPanDirection();
-
-
 
 private:
 
@@ -75,6 +71,12 @@ private:
 public:
 	/*Handles keyboard inputs.*/
 	virtual void Tick(float DeltaSeconds) override;
-
+	
 	virtual void BeginPlay() override;
+
+	//Uses PlayerController viewport to detect mouse location and pan camera
+	FVector GetCameraPanDirection();
+
+	//Used to pan the camera using the arrow keys or WASD
+	void PanCamera(float XInput, float YInput);
 };

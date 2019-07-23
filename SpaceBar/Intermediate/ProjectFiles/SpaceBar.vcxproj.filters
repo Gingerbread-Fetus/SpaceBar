@@ -49,9 +49,15 @@
     <ClInclude Include="..\..\Source\SpaceBar\PlayerCameraSpectatorPawn.h">
       <Filter>Source\SpaceBar</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\SpaceBar\PlayerCameraController.h">
+      <Filter>Source\SpaceBar</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\SpaceBar\PlayerCameraSpectatorPawn.cpp">
+      <Filter>Source\SpaceBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpaceBar\PlayerCameraController.cpp">
       <Filter>Source\SpaceBar</Filter>
     </ClCompile>
   </ItemGroup>

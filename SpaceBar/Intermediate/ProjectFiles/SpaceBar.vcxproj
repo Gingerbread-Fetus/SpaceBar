@@ -372,8 +372,10 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\SpaceBar\SpaceBar.Build.cs" />
+    <ClCompile Include="..\..\Source\SpaceBar\PlayerCameraController.cpp" />
     <ClCompile Include="..\..\Source\SpaceBar\PlayerCameraSpectatorPawn.cpp" />
     <ClCompile Include="..\..\Source\SpaceBar\SpaceBar.cpp" />
+    <ClInclude Include="..\..\Source\SpaceBar\PlayerCameraController.h" />
     <ClInclude Include="..\..\Source\SpaceBar\PlayerCameraSpectatorPawn.h" />
     <ClInclude Include="..\..\Source\SpaceBar\SpaceBar.h" />
     <ClCompile Include="..\..\Source\SpaceBar\StationPlayerController.cpp" />
